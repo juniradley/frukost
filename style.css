@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: hotpink;
+  margin: 0;
+  height: 100%;
+  font-size: clamp(1rem, 2vw + 5vh, 2rem);
+}
+
+.title {
+  text-align: center;
+}
+
+.output {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 6rem;
+}
+
+.generate {
+  width: 24rem;
+  height: 24rem;
+  padding: 4rem 1rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: hotpink;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.centrera {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
